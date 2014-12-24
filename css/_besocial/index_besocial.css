@@ -871,9 +871,9 @@ a.active {
 }
 
 .board_name>a {
-	color: #43a8da;
+	color: #333;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 15px;
 }
 .board_row, .childboard_row {
 	border-bottom: 1px solid #eee;
