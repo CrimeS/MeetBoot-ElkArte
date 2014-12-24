@@ -595,6 +595,11 @@ div.bbc_footnotes .meaction {
 	font-size: 14px;
 	margin-top: 4px;
 }
+#main_menu .linklevel1:hover, .admin_menu .linklevel1:hover, #adm_submenus .linklevel1:hover {
+	color: #fff;
+	background-color: #428bca;
+	border-radius: 4px;
+}
 #menu_nav {
 	background: #333;
 	background-image: linear-gradient(to bottom, #4d4f53 0%,#333 49%,#333 51%,#4d4f53 100%);
