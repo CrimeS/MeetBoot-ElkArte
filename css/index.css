@@ -1792,6 +1792,13 @@ img.new_posts {
 #unread_header {
 	margin-top: 0.5em;
 }
+
+/* The header abover the posts */
+#forumposts .category_header {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 /* The board description and who-is-viewing stuff. */
 #description_board {
 	margin: 10px 0 0 0;
@@ -1812,7 +1819,6 @@ img.new_posts {
 	display: table;
 	width: 100%;
 	border-collapse: collapse;
-	table-layout: fixed;
 }
 .topic_listing>li {
 	margin: 1px 0 0 0;
@@ -1863,8 +1869,9 @@ img.new_posts {
 }
 .topic_name h4 {
 	line-height: 1.429em;
-	display: inline-block;
 	padding-right: 30px;
+	word-break: break-all;
+	word-wrap: break-word;
 }
 .topic_name h4 a {
 	font-weight: bold;
