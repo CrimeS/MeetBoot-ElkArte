@@ -594,11 +594,14 @@ div.bbc_footnotes .meaction {
 	color: #428bca;
 	font-size: 14px;
 	margin-top: 4px;
+	line-height: 40px;
 }
 #main_menu .linklevel1:hover, .admin_menu .linklevel1:hover, #adm_submenus .linklevel1:hover {
-	color: #fff;
-	background-color: #428bca;
+	color: #23527c;
+	background-color: #eeeeee;
 	border-radius: 4px;
+	height: 40px;
+	line-height: 40px;
 }
 #menu_nav {
 	background: #333;
@@ -639,6 +642,14 @@ div.bbc_footnotes .meaction {
 /* Main menu Level 1 active button and hover need a different border. */
 #main_menu .active, #main_menu .linklevel1:hover, #main_menu .listlevel1:hover .linklevel1, #main_menu .linklevel1:focus {
 
+}
+#main_menu .listlevel1 .active
+{
+	background: #428bca;
+	color: #fff;
+	border-radius: 4px;
+	height: 40px;
+	line-height: 40px;
 }
 
 /* Level 1 active buttons for primary admin/profile/etc drop menus... */
@@ -1614,20 +1625,19 @@ a.help .icon {
 .menu_bg
 {
 	width: 100%;
-	height: 54px;
-	border-radius: 4px;	
+	height: 65px;
 }
 .menu_bg_margin
 {
 	margin: 0 auto;
-	height: 54px;
+	height: 65px;
 }
 .menu_bg_content
 {
 	display: table;
 	padding: 0 17px;
 	width: 98%;
-	height: 54px;
+	height: 65px;
 }
 .menu_bg_center
 {
